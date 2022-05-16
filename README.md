@@ -1,2 +1,1 @@
-# shell
-Shell/Terminal/Navigation/Working with Commands/Keyboard Shortcuts for Bash
+Write a script that prints the absolute path name of the current working directory.
