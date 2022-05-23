@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod vincent hello --from=guillaume
+chown vincent hello --from=guillaume
