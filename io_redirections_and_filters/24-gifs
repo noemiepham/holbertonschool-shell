@@ -1,2 +1,5 @@
 #!/bin/bash
-find -type f -name "*.gif" -printf "%f\n"| awk -F"." '{print $1}'| LC-ALL = C sort -f | sort
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d . -f 2,3 |rev | LC_ALL=C sort -f
+# -printf "%f\n" Only regular files (not directories) should be listed 
+#| rev | cut -d . -f 2,3 |rev | (d: start to cut, -f fiels want to be list) rev: reverse
+#LC_ALL=C sort -f sorted by byte values, but case-insensitive (file aaa should be listed before file bbb
