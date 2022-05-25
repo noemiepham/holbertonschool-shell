@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "*.gif" -maxdepth 1 -type f -printf "%s\n" | sort
+find -type f -name "*.gif" -printf "%f\n"| awk -F"." '{print $1}'| LC-ALL = C sort -f | sort
