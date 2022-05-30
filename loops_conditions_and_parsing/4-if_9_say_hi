@@ -4,11 +4,10 @@
 n=1
 while [ $n -le 10 ]
 do
-	((n++))
-	if [ $n == 10 ]
+	echo "Best School"
+	if [ $n == 9 ]
 	then
 		echo "hi"
-	continue
 	fi
-	echo "Best School"
+	((n++)) 
 done
