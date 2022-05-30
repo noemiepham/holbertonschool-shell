@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#In the example below, on each iteration the loop prints the current value of the variable
+counter=1
+until [ $counter -gt 10 ]
+do
+	echo Best School
+	((counter++))
+done
