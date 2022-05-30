@@ -5,5 +5,5 @@
 #Where only the part of the name after the first dash is displayed
 for FILE in *
 do
-	find . "$FILE" | cut -d - -f2,3 
+	echo "$FILE" | cut -d - -f2,3 
 done
