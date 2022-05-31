@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Show your Bash PID
+ps -afuxe | awk '(NR>1)'
+# shellcheck disable=SC2009
+
