@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#Ordered from the greatest to the lowest number of occurrence
 awk 'BEGIN { FS=" "; }{ print $1 " " $9; }' apache-access.log | sort | uniq -c | sort -nr
