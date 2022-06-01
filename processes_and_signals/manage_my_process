@@ -2,6 +2,6 @@
 #Write a manage_my_process Bash script that
 while :
 do
-	echo "I am alive"  >> /root/tmp/my_process
+	echo "I am alive"  >> /tmp/my_process
 	sleep 2
 done 
